@@ -1,0 +1,42 @@
+.keypad{
+    height:320px;
+    width:280px;
+    overflow: hidden;
+    background-color: rgba(106, 127, 182, 0.631);
+    display: flex;
+    font-weight: 300;
+    border: 1.3px solid rgba(0, 0, 0, 0.588);
+}
+.keypad p{
+    line-height: 1.3rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: 250ms;
+    cursor: pointer;
+    user-select: none;
+}
+.keypad_keys{
+    color:aliceblue;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 7% 5% 10% 5%;
+    
+}
+.keypad_keys p{
+  
+    padding: 10% 10%;
+}
+.keypad_keys p:active{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.keypad_symbols{
+    color: rgb(255, 155, 55);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 6% 0% 10% 0%;
+}

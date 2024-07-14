@@ -1,0 +1,25 @@
+.header{
+    height: 150px;
+    width:280px;
+    text-align: end;
+    font-size:25px;
+    overflow-y: scroll;
+    color: rgb(255, 254, 254);
+}
+.header_exp p{
+    display: flex;
+    line-height: 2rem;
+    justify-content: flex-end;
+    overflow-y: scroll;
+}
+.header_exp{
+    padding-top:5px;
+     width: 100%;
+     font-weight:450;
+     padding-right:10%;
+}
+.result{
+     padding-top:20px;
+     font-weight:600;
+     font-size:50px;
+}

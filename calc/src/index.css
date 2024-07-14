@@ -1,0 +1,55 @@
+
+*{
+  padding: 0;
+  margin:0;
+  font-family: poppins;
+}
+body{
+  background: url(./components/img/5210523.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(97, 103, 165, 0.811);
+  height: 80px;
+  font-size: xx-large;
+  color: azure;
+}
+.app{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.app_calc{
+  height: 500px;
+  width:280px;
+  border-radius: 30px;
+  overflow: hidden;
+  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(20px);
+  border:2px solid rgba(0, 0, 0, 0.588);
+  box-shadow:-8px 15px 50px 30px rgba(0, 0, 0, 0.51);
+}
+.app_calc_navbar{
+  top:0;
+  left:0;
+  background-color: transparent;
+  min-height: 25px;
+  padding: 10px;
+}
+.app_calc_navbar_time{
+  margin-top:5px;
+  box-shadow:1px -1px 10px rgba(0,0,0,0.35);
+  width:60px;
+  height: 15px;
+  border-radius: 20px;
+  font-size:12px;
+  text-align: center;
+}
